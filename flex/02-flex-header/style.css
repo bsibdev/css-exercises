@@ -33,3 +33,5 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/*had to check solution to solve. was missing gap on ul,and padding on header.*/
