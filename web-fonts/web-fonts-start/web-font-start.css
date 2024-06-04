@@ -1,4 +1,5 @@
 /* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 html {
   font-size: 10px;
@@ -26,10 +27,10 @@ p {
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
-  font-family:quicksandregular,serif;
+  font-family:'Roboto Mono','quicksandregular',serif;
 }
 h1,h2 {
-  font-family:alex_brushregular,serif;
+  font-family:'Roboto Mono','alex_brushregular',serif;
   word-spacing:1.2rem;
   text-transform:capitalize;
 }
