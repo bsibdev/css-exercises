@@ -1,0 +1,56 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 6.2rem;
+}
+
+h2 {
+  font-size: 4.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  font-family:'Roboto Mono','quicksandregular',serif;
+}
+h1,h2 {
+  font-family:'Roboto Mono','alex_brushregular',serif;
+  word-spacing:1.2rem;
+  text-transform:capitalize;
+}
+@font-face {
+  font-family: 'alex_brushregular';
+  src: url('fonts/fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+       url('fonts/fonts/alexbrush-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'quicksandregular';
+  src: url('fonts/fonts/quicksand-regular-webfont.woff2') format('woff2'),
+       url('fonts/fonts/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
